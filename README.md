@@ -49,7 +49,7 @@ None
 
 **Further reading**
 - [investopedia](https://www.investopedia.com/terms/m/multifactor-model.asp)
-- [udacity](https://classroom.udacity.com/nanodegrees/nd880/PCA as a Factor Model - Coding Exercises)
+- [udacity](https://udacity.com/nanodegrees/)
 - [sciencedirect](https://www.sciencedirect.com/topics/social-sciences/factor-model)
 - J.H. Stock, M.W. Watson, in Handbook of Macroeconomics, 2016
 - Moorad Choudhry, in The Bond & Money Markets, 2001
