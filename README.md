@@ -31,8 +31,20 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 plt.style.use('ggplot')
 plt.rcParams['figure.figsize'] = (14, 8)
+import os
+import project_helper
+from zipline.data import bundles
+from sklearn.decomposition import PCA
+
 ```
 
+## ** Data process
+We automate the process of dataflow from .... using zipline environment to bundle our data and to  build pipline engine.\
+With the pipline engine built, we get the stocks at the end of the period in the universe, then we use these tickers to generate the returns data for the our risk model.\
+
+
+
+ We xploring the possibility the possibilities of using predict_portfolio_risk to predict portfolio risk.
 
 **issues**
 
