@@ -52,9 +52,8 @@ We built the risk model using PCA,  and performed the following:
 - Implemented` ```idiosyncratic_var_vector``` to get the idiosyncratic variance Vector.
 - Explored the possibilities of using` ```predict_portfolio_risk``` to predict portfolio risk.
 
- We Evaluated the factors, and we calculated the sharp ratio to get the sense of how much trading inccurred by its turnover analysis.
- Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it,
- attempting to neautralise the risk factor which are source of return variance.
+ We Evaluated the factors, and we calculated the sharp ratio to get the sense of how much trading inccurred by its turnover analysis.\
+ Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it, attempting to neautralise the risk factor which are source of return variance.
 
 **issues**
 None
