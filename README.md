@@ -38,9 +38,9 @@ from sklearn.decomposition import PCA
 
 ```
 
-## **Data processes**
+## **Data process**
 - We automate the process of dataflow using zipline environment to bundle our data and to  build pipline engine.
-- With the pipline engine built, we get the stocks at the end of the period in the universe, then we use these tickers to generate the returns data for the our risk model.\
+- With the pipline engine built, we get the stocks at the end of the period in the universe, then we use these tickers to generate the returns data for the our risk model.
 
 ## **Statistical Risk Model**
 We built the risk model using PCA,  and performed the following:
