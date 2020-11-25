@@ -49,9 +49,10 @@ We built the risk model using PCA,  and performed the following:
 - Implemented` ```factor_cov_matrix_```to get the factor covariance matrix.
 - Implemented` ```factor_cov_matrix``` to get the factor covariance matrix.
 - Implemented` ```diosyncratic_var_matrix``` to get the idiosyncratic variance matrix.
-- Implemented` ```idiosyncratic_var_vector``` to get the idiosyncratic variance Vector.\
+- Implemented` ```idiosyncratic_var_vector``` to get the idiosyncratic variance Vector.
+
  Finally we explored the possibilities of using` ```predict_portfolio_risk``` to predict portfolio risk.
- Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it,\
+ Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it,
  attempting to neautralise the risk factor which are source of return variance.
 
 **issues**
