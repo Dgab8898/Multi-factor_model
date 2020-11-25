@@ -38,8 +38,8 @@ from sklearn.decomposition import PCA
 
 ```
 
-## **Data process**
-- We automate the process of dataflow using zipline environment to bundle our data and to  build pipline engine.\
+## **Data processes**
+- We automate the process of dataflow using zipline environment to bundle our data and to  build pipline engine.
 - With the pipline engine built, we get the stocks at the end of the period in the universe, then we use these tickers to generate the returns data for the our risk model.\
 
 ## **Statistical Risk Model**
@@ -50,13 +50,14 @@ We built the risk model using PCA,  and performed the following:
 - Implemented` ```factor_cov_matrix``` to get the factor covariance matrix.
 - Implemented` ```diosyncratic_var_matrix``` to get the idiosyncratic variance matrix.
 - Implemented` ```idiosyncratic_var_vector``` to get the idiosyncratic variance Vector.
+- Explored the possibilities of using` ```predict_portfolio_risk``` to predict portfolio risk.
 
- Finally we explored the possibilities of using` ```predict_portfolio_risk``` to predict portfolio risk.
+ We Evaluated the factors, and we calculated the sharp ratio to get the sense of how much trading inccurred by its turnover analysis.
  Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it,
  attempting to neautralise the risk factor which are source of return variance.
 
 **issues**
-
+None
 
 **Contributing**
 
