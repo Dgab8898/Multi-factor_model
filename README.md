@@ -42,16 +42,16 @@ from sklearn.decomposition import PCA
 - We automate the process of dataflow using zipline environment to bundle our data and to  build pipline engine.\
 - With the pipline engine built, we get the stocks at the end of the period in the universe, then we use these tickers to generate the returns data for the our risk model.\
 
-Statistical Risk Model
-we built the risk model using PCA,  and implemented the following risk factors:
-- then we implement _factor_betas_ to get the factor betas from the PCA model.
-- Implement _factor_returns_ to get the factor returns from the PCA 
-- Implement _factor_cov_matrix_ to get the factor covariance matrix.
-- Implement _factor_cov_matrix_ to get the factor covariance matrix.
-- Implement idiosyncratic_var_matrix to get the idiosyncratic variance matrix.
-- Implement idiosyncratic_var_vector to get the idiosyncratic variance Vector.\
- We explore the possibility the possibilities of using predict_portfolio_risk to predict portfolio risk.
- Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simanltaneously trying to normalize,\
+## **Statistical Risk Model**
+We built the risk model using PCA,  and performed the following:
+- Implemented` ```factor_betas``` to get the factor betas from the PCA model.
+- Implemented```factor_returns``` to get the factor returns from the PCA 
+- Implemented` ```factor_cov_matrix_```to get the factor covariance matrix.
+- Implemented` ```factor_cov_matrix``` to get the factor covariance matrix.
+- Implemented` ```diosyncratic_var_matrix``` to get the idiosyncratic variance matrix.
+- Implemented` ```idiosyncratic_var_vector``` to get the idiosyncratic variance Vector.\
+ Finally we explored the possibilities of using ```predict_portfolio_risk``` to predict portfolio risk.
+ Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it,\
  attempting to neautralise the risk factor which are source of return variance.
 
 **issues**
