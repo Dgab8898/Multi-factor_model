@@ -55,20 +55,20 @@ We built the risk model using PCA,  and performed the following:
  We Evaluated the factors, and we calculated the sharp ratio to get the sense of how much trading inccurred by its turnover analysis.\
  Then we thrown alpha into optimizer to caculate the ultimate portfolio weight by maximize our predictive return and simultaneously trying to normalize it, attempting to neautralise the risk factor which are source of return variance.
 
-**issues**
+## **issues**
 None
 
-**Contributing**
+## **Contributing**
 
 For major changes, please open an issue. First discuss what you would like to change.
 please make sure to update tests as appropriate
 
-**Licence**
+## **Licence**
 None
 
 
 
-**Further reading**
+## **Further reading**
 - [investopedia](https://www.investopedia.com/terms/m/multifactor-model.asp)
 - [udacity](https://udacity.com/nanodegrees/)
 - [sciencedirect](https://www.sciencedirect.com/topics/social-sciences/factor-model)
