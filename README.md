@@ -64,7 +64,10 @@ For major changes, please open an issue. First discuss what you would like to ch
 please make sure to update tests as appropriate
 
 ## **Licence**
-None
+
+```
+Copyright (C) 2020 David Gabriel
+```
 
 
 
