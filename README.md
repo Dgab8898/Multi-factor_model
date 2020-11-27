@@ -71,7 +71,7 @@ Copyright (C) 2020 David Gabriel
 
 
 
-## **Further reading**
+## **Further reading & References**
 - [investopedia](https://www.investopedia.com/terms/m/multifactor-model.asp)
 - [udacity](https://udacity.com/nanodegrees/)
 - [sciencedirect](https://www.sciencedirect.com/topics/social-sciences/factor-model)
